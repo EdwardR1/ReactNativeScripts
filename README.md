@@ -1,11 +1,15 @@
 # React Native Scripts
 
-## Two scripts
+## Scripts to speed up process.
 
 *Android Rename Package*
 
-    Will ask for new package information. Program will execute the necessary updates and change references to the correct package.
+    Key usage if `expo eject` returns an incorrect package.
+    Program will request for a new package name.
+    Program will replace and update the references.
 
 *Version Update*
 
-    Will ask for new Version Name. Program will increment the version code and replace the version name.
+    Key usage right before publishing react-native app, with a requirement of an updated build number.
+    Will ask for new Version Name.
+    Program will increment the version code and replace the version name.
